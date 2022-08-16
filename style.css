@@ -1,0 +1,38 @@
+/* (A) GRID CONTAINER */
+#grid-line {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+   
+  /* (B) GRID CELL */
+  div.cell {
+    background: #fff600;
+    border: 1px solid #000;
+    padding: 10px;
+
+  }
+  
+  /* (C) SPAN MULTIPLE COLUMNS */
+  .spancol {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .g:hover {
+    background-color: white;
+    color:purple;
+  }
+
+  body {
+    background-image: url("https://code-boxx.com/wp-content/uploads/2022/03/illus-css-grid-4b-r.png?ezimgfmt=rs:326x206/rscb30/ng:webp/ngcb30");
+    background-size: 100%;
+}
+
+.dot {
+    height: 400px;
+    width: 400px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
